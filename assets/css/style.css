@@ -17,6 +17,41 @@
     height: 80px;
 }
 
+#navigationList {
+    display: flex;
+    list-style: none;
+}
+
+#navigation h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#navigation h1 {
+    transition: all .3s ease;
+}
+
+.navigationItems {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    transition: all .3s ease;
+}
+
+#navigation h1:hover,
+.navigationItems:hover {
+    transform: scale(1.04);
+}
+
+.navigationLinks {
+    text-decoration: none;
+    transition: .3s;
+    color: white;
+}
+
+#menuIcon {
+    font-size: 24px;
+}
+
 /*Felipe*/
 
 #felipe {
