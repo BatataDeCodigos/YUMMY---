@@ -20,7 +20,7 @@
 /*Felipe*/
 
 #felipe {
-    background-color: green;
+    background-image: linear-gradient(50deg, rgb(251, 176, 255), whitesmoke, rgb(184, 198, 255));
     width: 100%;
     height: 500px;
 }
