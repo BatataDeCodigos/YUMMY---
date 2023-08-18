@@ -36,10 +36,25 @@
 /*João*/
 
 #joao {
-    background-color: aqua;
+    background-color: white;
     width: 100%;
     height: 500px;
 }
+#joao h3{
+    color: black;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+#joao p{
+    color: black;
+    text-align: center;
+}
+#joao #pr{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 
 /*Eduardo*/
 
