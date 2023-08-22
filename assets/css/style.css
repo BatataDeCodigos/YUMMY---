@@ -19,10 +19,14 @@
 
 /*Felipe*/
 
-#felipe {
-    background-image: linear-gradient(50deg, rgb(251, 176, 255), whitesmoke, rgb(184, 198, 255));
+#felipe{
     width: 100%;
     height: 500px;
+    text-align: center;
+}
+
+#felipe video{
+    width: 100%;
 }
 
 /*Francisco*/
