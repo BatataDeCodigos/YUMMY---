@@ -9,6 +9,10 @@
 
 /*Guilherme*/
 
+body {
+    overflow-x: hidden;
+}
+
 #navigation {
     display: flex;
     justify-content: space-around;
@@ -52,6 +56,48 @@
     font-size: 24px;
     color: white;
     display: none;
+}
+
+@media (max-width: 999px) {
+    #navigationList {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8vh;
+        margin-top: 31px;
+        right: 0;
+        width: 100vw;
+        height: 98vh;
+        background-color: #004aad;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+
+    .navigationItems {
+        margin-left: 0;
+    }
+
+    #menuIcon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #navigationList.active {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /*Felipe*/
