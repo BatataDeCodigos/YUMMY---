@@ -46,5 +46,46 @@
 footer {
     background-color: black;
     width: 100%;
-    height: 180px;
+    height: 400px;
+}
+#ca{
+    margin-left:  40px;
+    margin-right: 40px;
+}
+#po img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 490px;
+    border-radius: 60pc;
+
+    
+}
+#oi img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 70pc;
+
+}
+#opa img{
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    border-radius: 79pc;
+
+  
+}
+#riri{
+   margin-left: 70px;
+}
+#oo h2{
+    margin-left: 500px;
+    color: white;
+}
+#ee h5{
+ display: block;
+ color: aliceblue;
+ margin-left: 200px;
 }
