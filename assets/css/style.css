@@ -22,17 +22,30 @@
 #felipe{
     width: 100%;
     height: 500px;
-    text-align: center;
+    overflow: hidden;
+    background-color: black;
+    background-image: url('/img.png');
 }
 
 #felipe video{
     width: 100%;
+    margin-top: -500px;
+    opacity: 0.3;
+}
+
+#felipe h1{
+    text-align: left;
+    margin-top: -150px;
+    font-size: 60px;
+    color: white;
+    padding-top: 300px;
+    padding-left: 80px;
 }
 
 /*Francisco*/
 
 #francisco {
-    background-color: red;
+    background-color: #004aad;
     width: 100%;
     height: 550px;
 }
