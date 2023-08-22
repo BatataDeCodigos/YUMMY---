@@ -39,20 +39,63 @@
     background-color: white;
     width: 100%;
     height: 500px;
+    padding-top: 100px;
+}   
+#joao #bolota1{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin-left: 200px;
+    color: white;
 }
-#joao h3{
-    color: black;
-    align-items: center;
+#joao #bolota1 h3{
     text-align: center;
-    padding-top: 50px;
+    margin-top: 40px;
 }
-#joao p{
-    color: black;
+#joao #bolota1 p{
     text-align: center;
+    margin-top: 40px;
+
+
 }
-#joao #pr{
-    padding-left: 200px;
-    padding-right: 200px;
+#joao #bolota2{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+#joao #bolota2 h3{
+margin-top: 40px;
+align-items: center;
+text-align: center;
+}
+#joao #bolota2 p{
+text-align: center;
+margin-top: 40px;
+}
+#joao #bolota3{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    background-color: black;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+#joao #bolota3 h3{
+    text-align: center;
+    margin-top: 40px;
+}
+#joao #bolota3 p{
+    text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -62,4 +105,5 @@ footer {
     background-color: black;
     width: 100%;
     height: 180px;
+
 }
