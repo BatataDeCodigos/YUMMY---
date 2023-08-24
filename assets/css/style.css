@@ -28,14 +28,22 @@
 /*Francisco*/
 
 #francisco {
-    background-color: red;
+    background-color: rgb(255, 210, 210);
     width: 100%;
     height: 550px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
+
+#piqueno{
+    border: 0px solid red;
+    
+}
 .slider{
     margin: 0 auto;
-    width: 800px;
+    width: 500px;
     height: 400px;
     overflow: hidden;
 
@@ -54,12 +62,14 @@
 
 .slide{
     width: 25%;
-    position: relative
+    position: relative;
+    transition: 1.5s;
 }
 
 .slide img{
     width: 500px;
     height: 500px;
+    border: 5px solid red;
 }
 
 .manual-navigation{
@@ -98,7 +108,52 @@
     margin-left: -50%;
 }
 
+.navigation-auto div{
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
 
+.navigation-auto div{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navigation-auto div:not(lost-child){
+    margin-right: 40px;
+
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn3{
+    background-color: white;
+}
+
+#balacobaco{
+    text-decoration: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#balacobaco a{
+    text-decoration: none;
+    color: rgb(116, 42, 0);
+    font-size: 20px;
+}
 
 /*João*/
 
