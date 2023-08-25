@@ -9,12 +9,95 @@
 
 /*Guilherme*/
 
+body {
+    overflow-x: hidden;
+}
+
 #navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #004aad;
     height: 80px;
+}
+
+#navigationList {
+    display: flex;
+    list-style: none;
+}
+
+#navigation h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#navigation h1 {
+    transition: all .3s ease;
+}
+
+.navigationItems {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    transition: all .3s ease;
+}
+
+#navigation h1:hover,
+.navigationItems:hover {
+    transform: scale(1.04);
+}
+
+.navigationLinks {
+    text-decoration: none;
+    transition: .3s;
+    color: white;
+}
+
+#menuIcon {
+    font-size: 24px;
+    color: white;
+    display: none;
+}
+
+@media (max-width: 999px) {
+    #navigationList {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8vh;
+        margin-top: 31px;
+        right: 0;
+        width: 100vw;
+        height: 98vh;
+        background-color: #004aad;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+
+    .navigationItems {
+        margin-left: 0;
+    }
+
+    #menuIcon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #navigationList.active {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /*Felipe*/
@@ -160,15 +243,138 @@
 /*João*/
 
 #joao {
-    background-color: aqua;
+    background-color: white;
     width: 100%;
     height: 500px;
+    padding-top: 100px;
+}   
+#joao #bolota1{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin-left: 150px;
+    color: white;
 }
+#joao #bolota1 h3{
+    text-align: center;
+    margin-top: 40px;
+}
+#joao #bolota1 p{
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+#joao #bolota2{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+#joao #bolota2 h3{
+margin-top: 40px;
+align-items: center;
+text-align: center;
+}
+#joao #bolota2 p{
+text-align: center;
+margin-top: 40px;
+}
+#joao #bolota3{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    background-color: black;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+#joao #bolota3 h3{
+    text-align: center;
+    margin-top: 40px;
+}
+#joao #bolota3 p{
+    text-align: center;
+    margin-top: 40px;
+}
+
 
 /*Eduardo*/
 
 footer {
     background-color: black;
     width: 100%;
+    height: 550px;
+}
+#ca{
+    margin-left:  40px;
+    margin-right: 40px;
+}
+#po img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 490px;
+    border-radius: 60pc;
+
+    
+}
+#oi img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 70pc;
+
+}
+#opa img{
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    border-radius: 79pc;
+}
+#riri a{
+    text-decoration: none;
+   color: white;
+}
+#oo h2{
+    margin-left: 500px;
+    color: white;
+}
+#ee h5{
+ display: block;
+ color: aliceblue;
+ margin-left: 200px;
+}
+#popl a{
+    color: white;
+    text-decoration: none;
+
+}
+#riri{
+    margin-left: 400px;
+}
+#popl{
+    margin-left: 560px;
+}
+#rt img{
+    width: 120px;
+    height: 120px;
+    margin-left: 595px;
+}
+#popl a:hover{
+    text-decoration: underline;
+}
+#riri a:hover{
+    text-decoration: underline;
     height: 180px;
+
+
 }
