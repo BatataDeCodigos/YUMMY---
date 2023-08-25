@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.bameoba input{
+    
+    width: 300px;
+    height: 22px;
+
+
+}
+
+.logaço{
+  background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
