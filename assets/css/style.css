@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*Guilherme*/
@@ -103,10 +104,16 @@ body {
 /*Felipe*/
 
 #felipe{
-    width: 100%;
-    height: 500px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 75vh !important;
+    position: relative;
     overflow: hidden;
-    background-image: url('/img.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(/img.png);
+    background-size: 100%;
 }
 
 #felipe video{
@@ -213,7 +220,7 @@ footer {
     height: 60px;
     width: 60px;
     float: left;
-    margin-left: 490px;
+    margin-left: 520px;
     border-radius: 60pc;
 
     
@@ -237,9 +244,10 @@ footer {
    color: white;
 }
 #oo h2{
-    margin-left: 500px;
+    margin-left: 525px;
     color: white;
 }
+
 #ee h5{
  display: block;
  color: aliceblue;
@@ -269,4 +277,108 @@ footer {
     height: 180px;
 
 
+}
+
+/*Políticas de Privacidade*/
+
+#priva{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(233, 233, 233);
+    padding-top: 50px;
+}
+
+#priva div{
+    width: 90%;
+    height: 650px;
+    margin-left: 5%;
+    background-color: white;
+    padding: 30px;
+}
+
+#priva div h2{
+    margin-top: 20px;
+}
+
+/*Seja um Franqueado*/
+
+.pers1{
+    margin: 135px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.pers1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pers1 h1{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #004aad;
+    text-shadow: 0px 0px 5px rgb(184, 184, 184);
+    margin-bottom: 30px;
+}
+
+.pers1 p{
+    margin-top: 10px;
+}
+
+.pers1 button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    background-color: #004aad;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.pers1 button:hover{
+    background-color: #013880;
+}
+
+/*trabalhe Conosco*/
+
+.vaga{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.vaga:hover{
+    transform: scale(1.01);
+}
+
+.vaga h2{
+    float: left;
+    font-size: 17px;
+    margin-left: 30px;
+    color: #004aad;
+    width: 300px;
+}
+
+.vaga h3{
+    float: left;
+    font-size: 17px;
+    margin-left: 270px;
+    color: black;
+    width: 200px;
+}
+
+.vaga h4{
+    float: left;
+    font-size: 17px;
+    margin-left: 100px;
+    color: black;
+    width: 130px;
 }
